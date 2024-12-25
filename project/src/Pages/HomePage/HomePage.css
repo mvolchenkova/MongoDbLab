@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px; /* Высота заголовка */
+    z-index: 1000;
+
+}
+
+.toolbar {
+    top: 100px; /* Под заголовком */
+    left: 0;
+    right: 0;
+    height: 60px; /* Высота панели инструментов */
+    z-index: 999;
+}
+
+
+
+.container {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 150px;
+    width: 100%;
+}
+.progressDiv{
+    display: flex;
+    flex-direction: column;
+}
+.homeDiv{
+    display: flex;
+    flex-direction: column;
+}
+.aimAndProgressDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+@media(max-width: 768px) {
+    .yourProgress{
+        font-size: 1.4em;
+    }
+    .complTr{
+        font-size: 1em;
+    }
+    .aimdiv{
+        padding-left: 0;
+    }
+}

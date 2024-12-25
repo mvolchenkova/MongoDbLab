@@ -1,0 +1,74 @@
+.accMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accDiv1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.profileImageAcc{
+    width: 100px;
+}
+.nameSurname{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.acc{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 40px;
+}
+.otherInfo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.otherInfo>p{
+    margin: 5px;
+    font-size: 1.2em;
+}
+.accButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Pixelify Sans';
+}
+.deleteAccBut{
+    background-color: rgba(234, 35, 91, 0.37);
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+input{
+    width: 90%;
+}
+
+@media(max-width: 450px){
+    .accMain{
+        font-size: 0.8em;
+    }
+    .profileImageAcc{
+        width: 60px;
+    }
+}

@@ -1,0 +1,58 @@
+.regAuthDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items:center;
+}
+.regImg{
+    width: fit-content;
+    height: fit-content;
+}
+.formGroup {
+    margin-bottom: 15px;
+    width: 150px; 
+}
+
+label {
+    display: block; /* Блоковое отображение меток */
+    margin-bottom: 5px; /* Отступ между меткой и полем ввода */
+}
+
+input {
+    background-color: transparent;
+    width: 200px; /* Полная ширина полей ввода */
+    padding: 10px; /* Внутренний отступ */
+    border-radius: 5px; /* Скругление углов */
+    border: 1px solid black;
+}
+#surname, #name, #birthdate, #repeatPassword, #sex{
+    width: 230px;
+}
+Link{
+    text-decoration: none;
+}
+.registerPrompt {
+    margin-top: 15px; /* Отступ сверху */
+}
+.regAuthForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    width: 30%;
+}
+.checkboxDiv{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+button{
+    background-color: rgb(0, 200, 220);
+    font-family: 'Pixelify Sans';
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}

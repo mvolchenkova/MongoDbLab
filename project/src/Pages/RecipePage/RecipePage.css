@@ -1,0 +1,44 @@
+.imgDescrRecipe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+.imgDescrRecipe>img{
+    max-width: 320px;
+}
+.ingr{
+    font-size: 1.7em;
+}
+.recipeTitle{
+    font-size: 2em;
+    font-weight: bold;
+}
+.recMain{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.step{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+.instruction{
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .imgDescrRecipe>img{
+        width: 200px;
+    }
+}
+
+@media(max-width: 600px) {
+    .imgDescrRecipe>img{
+        display:none;
+    }
+    .imgDescrRecipe>div{
+        padding-left: 20px;
+    }
+}

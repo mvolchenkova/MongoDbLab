@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/data/images/layoutBody.png'); 
+  font-family: "Pixelify Sans", sans-serif;
+  
+}
+.yellowText{
+  color: rgb(255,194,14)
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ArchivoFont{
+  font-family: "Archivo", sans-serif;
+}
+.ArchivoBlackFont{
+  font-family: "Archivo Black", sans-serif;
+}
+.PixelFont{
+  font-family: "Pixelify Sans", sans-serif;
+}
+a{
+  text-decoration: none;
+  color:black;
+}

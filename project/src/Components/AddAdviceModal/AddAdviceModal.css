@@ -1,0 +1,30 @@
+button{
+    background-color: rgb(0, 200, 220);
+    font-family: 'Pixelify Sans';
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+textarea, input{
+    width: 378px;
+}
+.modal-content{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+@media(max-width: 600px) {
+    .modal-content{
+        width: 220px;
+        font-size: 0.7em;
+        gap:5px;
+    }
+    textarea{
+        width: 195px;
+    }
+    button{
+        padding: 5px;
+        border-radius:5px;
+    }
+}
