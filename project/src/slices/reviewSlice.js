@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
+const axios = require('axios')
 
 const initialState = {
     reviews: [],

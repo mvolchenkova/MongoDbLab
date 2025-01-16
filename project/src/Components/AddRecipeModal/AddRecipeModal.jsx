@@ -29,14 +29,14 @@ const AddRecipeModal = ({ isOpen, onClose }) => {
 
         const data = {
             title: recipeData.title,
-            time: recipeData.time, // Убедитесь, что это число
+            time: recipeData.time, 
             instructions: recipeData.instructions,
         };
 
         try {
-            await dispatch(adminAddRecipe(data)); // Отправка данных на сервер
+            await dispatch(adminAddRecipe(data)); 
             window.location.reload()
-            onClose(); // Закрытие модального окна
+            onClose(); 
         } catch (error) {
             console.error("Error creating recipe:", error);
             alert("Error creating recipe. Please try again.");

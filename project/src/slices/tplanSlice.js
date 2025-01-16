@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
+// import axios from 'axios';
+const axios = require('axios')
 
 export const fetchTrainingPlans = createAsyncThunk('api/trainingplans/getAllSearch', async () => {
     const response = await axios.get(`${process.env.REACT_APP_API_URL}/trainingplans/getAllSearch`);
